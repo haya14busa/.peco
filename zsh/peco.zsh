@@ -1,6 +1,6 @@
 # load peco sources
-if [ -d ~/.peco.d/zsh/plugins/ ]; then
-  for f (~/.peco.d/zsh/plugins/*) source "${f}"
+if [ -d ~/.peco/zsh/plugins/ ]; then
+  for f (~/.peco/zsh/plugins/*) source "${f}"
 fi
 
 bindkey '^o' peco_ghq_src
