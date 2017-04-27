@@ -10,6 +10,7 @@ bindkey '^r' peco_select_history
 bindkey '^xr' peco-cdr
 bindkey '^xv' vim_plugins_directory
 bindkey '^xf' peco_find
+bindkey '^xt' peco_tmux_session
 bindkey '^gr' peco-git-recent-remote-branches
 bindkey '^gb' peco-git-recent-branches
 bindkey '^gl' peco-git-log
